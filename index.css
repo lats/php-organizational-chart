@@ -1,0 +1,71 @@
+body{
+	background-color:#068;
+	background: -moz-linear-gradient(left 500px, #048, #08A);
+	background: -webkit-linear-gradient(left, #048, #08A);
+}
+#container{
+	position: fixed;
+	top:0;
+	left:0;
+	}
+#right{
+	padding-top:10px;
+	min-width:80%;
+	padding-left:10px;
+	float:right;
+}
+#left{
+	float:right;
+	position:relative;
+	min-width:10%;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right: 10px;
+	}
+.orgchart table{ 
+	border-collapse:collapse; 
+	padding:0; 
+	margin:0; 
+	top:0; 
+	min-width:100%;
+}
+.orgchart td{ 
+	vertical-align:top; 
+	text-align:center;
+}
+.orgchart th{ 
+	height:20px; 
+}
+.orgchart td .right{ 
+	border-right:1px solid #08a; 
+}
+.orgchart td .top{   
+	border-top:1px solid #08a; 
+ }
+.orgchart .width-50{   
+	width:50%;
+}
+.orgchart .charttext{
+	border:2px solid #840; 
+	padding:2px; 
+	background:#FA0; 
+	display:inline-block;font-size:12px;
+	width: 75px;
+}
+.orgchart .charttext:hover { 
+	background:#FFFF98; 
+}
+.skills {
+	position:relative;
+	text-align:right;
+	}
+.skills .skill {
+	color:#FFF;
+	}
+.skills .skill:hover {
+	color:#FFF;
+	background-color:#888;
+}
+#items { 
+	/*display:none;*/
+}
