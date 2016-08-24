@@ -5,4 +5,4 @@
 
 # Todo: 
 - Clean-up the code and make the variables more uniform.
-- "Fix" the skill list to make it work the way it is supposed to; Categories nest children and can be collapsed/expanded to reveal/hide those children.
+- ~~"Fix" the skill list to make it work the way it is supposed to; Categories nest children and can be collapsed/expanded to reveal/hide those children.~~
